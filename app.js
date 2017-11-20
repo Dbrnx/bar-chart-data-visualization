@@ -82,7 +82,7 @@ app.get('/amounts/:month_and_year', (req, res) => {
 });
 
 
-//Checking if the server is listening on port 3000
-app.listen(3000, () => {
-    console.log('listening on 3000')
+//Heroku assigns a port to the app. Else, it uses port 3000
+app.listen((process.env.PORT || 3000), () => {
+    console.log('listening...')
 });
