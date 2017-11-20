@@ -1,0 +1,21 @@
+{
+  "name": "bouquet-exercise",
+  "version": "1.0.0",
+  "description": "Coding Exercise for bouquet.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.11.0",
+    "express": "^4.16.2",
+    "promise": "^8.0.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

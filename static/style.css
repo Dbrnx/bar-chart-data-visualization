@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #F1FAEE;
+    position: relative;
+}
+
+h1 {
+    color: #1D3557;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h4 {
+    color: #1D3557;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h5 {
+    color: #A8DADC;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+.bar {
+    fill: #457B9D;
+}
+
+.bar:hover {
+    fill: #E63946;
+}
+
+.text {
+    fill: #E63946;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-anchor: middle;
+}
+
+input {
+    display: block;
+    margin: auto;
+    border-style: none none solid none;
+    background-color: #F1FAEE;
+}
+
+input {
+    font-family: sans-serif;
+    color: #E63946;
+}
+
+input:focus {
+    outline: none;
+}
+
+.error {
+    fill: #E63946;
+    font-family: sans-serif;
+    display: block;
+    margin: auto;
+}
